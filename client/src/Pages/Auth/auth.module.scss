@@ -1,0 +1,44 @@
+@import './../../Assets/styles/breakpoint';
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  margin: 10em auto;
+  max-width: 40vw;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #e5e6e7;
+  background: #edeffc;
+
+  @include tablet {
+    max-width: 55vw;
+  }
+
+  @include mobile {
+    max-width: 85vw;
+  }
+
+  .welcome {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto 15px;
+
+    .logo {
+      height: 40px;
+      img {
+        height: 45px;
+      }
+    }
+  }
+
+  .form {
+    padding: 25px;
+    background: #d9defc;
+
+    .textShow {
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

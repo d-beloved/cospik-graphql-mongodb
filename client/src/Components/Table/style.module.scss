@@ -1,0 +1,31 @@
+@import '../../Assets/styles/breakpoint';
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  min-height: 10rem;
+
+  .paginate {
+    margin: 5rem auto;
+  }
+
+  #dont {
+    display: none;
+  }
+
+  .nodata {
+    margin: 10rem auto;
+
+    h3 {
+      font-size: 20px;
+
+      @include mobile {
+        font-size: 15px;
+      }
+      @include tablet {
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import './../../Assets/styles/breakpoint';
+
+.head {
+  background: #cdd3f7;
+  min-height: 60px;
+
+  .logo {
+    height: 45px;
+    width: 110px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .burger {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  #action {
+    font-size: 15px;
+    font-weight: bolder;
+    background: #6077f8;
+    color: white;
+    border-radius: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 30px;
+
+    @include tablet {
+      font-size: 15px;
+      font-weight: bolder;
+      background: transparent;
+      color: black;
+      padding-left: 0;
+    }
+
+    @include mobile {
+      font-size: 15px;
+      font-weight: bolder;
+      background: transparent;
+      color: black;
+      padding-left: 0;
+    }
+  }
+
+  #user {
+    font-weight: bolder;
+    text-transform: capitalize;
+
+    @include desktop {
+      margin-right: 15px;
+    }
+  }
+}
