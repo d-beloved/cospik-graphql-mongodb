@@ -1,8 +1,8 @@
-<!-- [![Build Status](https://www.travis-ci.com/d-beloved/cospik.svg?branch=main)](https://www.travis-ci.com/d-beloved/cospik)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/db33f2a9853285631d2b/test_coverage)](https://codeclimate.com/github/d-beloved/cospik/test_coverage) -->
+[![Build Status](https://www.travis-ci.com/d-beloved/cospik.svg?branch=main)](https://www.travis-ci.com/d-beloved/cospik)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/db33f2a9853285631d2b/test_coverage)](https://codeclimate.com/github/d-beloved/cospik/test_coverage)
 
-<!-- PROJECT LOGO -->
-<!-- <br />
+PROJECT LOGO
+<br />
 <p align="center">
   <a href="https://github.com/d-beloved/cospik">
     <img src="client/src/Assets/images/COSPIK.png" alt="Logo" width="80" height="40">
@@ -11,10 +11,10 @@
   <h3 align="center">A University Admin Application</h3>
 
   <p align="center">An app that allows a university admin to pick a course for students and so much more</p>
-</p> -->
+</p>
 
-<!-- TABLE OF CONTENTS -->
-<!-- <details open="open">
+TABLE OF CONTENTS
+<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -33,10 +33,10 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
   </ol>
-</details> -->
+</details>
 
-<!-- ABOUT THE PROJECT -->
-<!-- ## About The Project
+ABOUT THE PROJECT
+## About The Project
 
 <p>
   <a href="https://github.com/d-beloved/cospik">
@@ -67,10 +67,10 @@ COSPIK is the right solution for you, it offers the following functionality:
 * [Redux](https://redux.js.org/)
 * [React-Bootstrap](https://react-bootstrap.netlify.app/)
 * [Jest](https://jestjs.io/)
-* [PostgreSql](https://www.postgresql.org/) -->
+* [PostgreSql](https://www.postgresql.org/)
 
-<!-- GETTING STARTED -->
-<!-- ## Getting Started
+GETTING STARTED
+## Getting Started
   ### Installation using Docker
 
   * Install [Nodejs](https://nodejs.org/en/download/)
@@ -84,16 +84,16 @@ COSPIK is the right solution for you, it offers the following functionality:
       ```sh
         docker-compose up --build
       ```
-      to build the images and start the container; for subsequent runs, you need to remove the `--build` flag -->
+      to build the images and start the container; for subsequent runs, you need to remove the `--build` flag
 
-<!-- USAGE EXAMPLES -->
-<!-- ## Usage
+USAGE EXAMPLES
+## Usage
 
-Please refer to the [Documentation](https://documenter.getpostman.com/view/2841318/TVzYgEWg) for information on the available APIs -->
+Please refer to the [Documentation](https://documenter.getpostman.com/view/2841318/TVzYgEWg) for information on the available APIs
 
-<!-- LICENSE -->
-<!-- ## License
+LICENSE
+## License
 
 Distributed under the MIT License. See [MIT License](LICENSE) for more information.
 
-&copy; Ayodeji Moronkeji -->
+&copy; Ayodeji Moronkeji
